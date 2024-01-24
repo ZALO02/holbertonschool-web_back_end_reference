@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 """module that defines an add function"""
 
 
