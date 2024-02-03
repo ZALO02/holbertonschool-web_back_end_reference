@@ -6,7 +6,7 @@ import random
 from typing import AsyncGenerator
 
 
-async def async_generator() -> AsyncGenerator[float, None]:
+async def async_generator() -> AsyncGenerator[float, None, None]:
     """corou that'll loop 10 times, wait 1 sec
     then yield a random number
     """
