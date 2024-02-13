@@ -16,7 +16,7 @@ export default class HolbertonCourse {
       ) {
       throw new Error('students must be an array of strings')
     }
-    this._sudents = students;
+    this._students = students;
   }
 
   get name() {
