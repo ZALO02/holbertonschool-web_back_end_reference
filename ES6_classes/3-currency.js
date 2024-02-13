@@ -4,7 +4,7 @@ export default class Currency {
       throw new Error('code is not a string');
     }
     this._code = code;
-    
+
     if (typeof name !== 'string') {
       throw new Error('name is not a string');
     }
